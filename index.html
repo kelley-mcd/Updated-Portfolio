@@ -6,13 +6,18 @@
     <link rel="stylesheet" href="../Updated-Portfolio/css/reset.css">
     <link rel="stylesheet" href="../Updated-Portfolio/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
     <title>Kelley McDonnell</title>
 </head>
 
 <body>
+   <div>
+       <img src="images/avatar.jpg" class= "avatar"><h1 class="name">Kelley</h1>
+       </div>
     <header class="header">
-        <h1> <img src="images/avatar.jpg" class="avatar">Kelley</h1>
-        <nav>
+        <nav class="nav cyan darken-3">
             <ul>
                 <li>
                     <a class="nav-wrapper" href="#About Me">About Me</a>
@@ -24,7 +29,7 @@
                     <a class="nav-wrapper" href="#Contact Me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="project links/RESUME.pdf" class=header href="#Resume">Resume</a>
+                    <a href="project links/RESUME.pdf" class="header nav-wrapper" href="#Resume">Resume</a>
                 </li>
             </ul>
         </nav>
@@ -32,12 +37,13 @@
 
     <img class="hero-image" src="../Updated-Portfolio/images/hero image.jpg" alt="hero-image">
 
-    <main class="content">
+    <main class="content container">
 
         <div class="About Me" id="About Me">
             <h2>About Me</h2>
-            <p>
-                Kelley McDonnell is a young and aspiring web developer located in the New Jersey/ New York area. She works
+            <p class="bio">
+                Kelley McDonnell is a young and aspiring web developer located in the New Jersey/ New York area. She
+                works
                 as a Land Survey Production Supervisor for an engineering firm in New Jersey. She is
                 enrolled in the University of New Hampshire's Coding Bootcamp where she has mastered HTML and
                 advanced CSS techniques. Her teachers will continue to teach the rest of the ciriculum which will
@@ -50,28 +56,32 @@
         <div class="Work" id="Work">
             <h2>Work</h2>
             <p>
-                <a class="Kan(way)e Music" href="https://kelley-mcd.github.io/STANK-Music/">
-                    <img src="images/p1.jpg" class="Project1" alt="Project1">
+                <a class="Kanwaye-Music" href="https://kelley-mcd.github.io/STANK-Music/">
+                    <img src="images/Kanwaye.PNG" class="work1" alt="Kan(way)e-Music">
+                </a>
+                <a class="Day-Planner" href="https://kelley-mcd.github.io/Day-Planner/">
+                    <img src="images/Plan-for-Today-Day-Planner-Page.jpg" class="work2" alt="Day-Planner">
+                </a>
+                <a class="Horiseon-Webpage" href="https://kelley-mcd.github.io/Horiseons-New-Webpage/">
+                    <img src="images/Horiseon.PNG" class= "work3" alt="Horiseon-Webpage">
                 </a>
             </p>
         </div>
 
         <div class="Contact-Me" id="Contact Me">
             <h2>Contact Me</h2>
-            <p>
-                <a class="email address" href="mailto:kmcdonnell8@gmail.com">Email Me!</a>
-                <a class="git hub" href="https://github.com/kelley-mcd">GitHub</a>
-                <a class ="linkedin" href="https://www.linkedin.com/in/kelley-mcdonnell-068344b5/">LinkedIn</a>
-                <a class="twitter" href="https://twitter.com/mcd_kelley">Twitter</a>
+            <p class="row my-links">
+                <a class="col s12 m3 12 email-address btn waves-effect waves-light cyan darken-3" href="mailto:kmcdonnell8@gmail.com">Email Me!</a>
+                <a class="col s12 m3 12 git-hub btn waves-effect waves-light cyan darken-3" href="https://github.com/kelley-mcd">GitHub</a>
+                <a class="col s12 m3 12 linkedin btn waves-effect waves-light cyan darken-3" href="https://www.linkedin.com/in/kelley-mcdonnell-068344b5/">LinkedIn</a>
+                <a class="col s12 m3 12 twitter btn waves-effect waves-light cyan darken-3" href="https://twitter.com/mcd_kelley">Twitter</a>
             </p>
         </div>
-
     </main>
 
-
-    <footer class="footer">
-        <h4>Made with 💙 & ✨ by Kelley McDonnell</h4>
-        <h4> &copy; 2021 Chiweenies & Coffee, Inc. </h4>
+    <footer class="footer page-footer cyan darken-3">
+        <div class="white-text container">Made with 💙 & ✨ by Kelley McDonnell</div>
+        <div class="white-text container"> &copy; 2021 Chiweenies & Coffee, Inc. </div>
     </footer>
 
 </body>

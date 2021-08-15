@@ -1,0 +1,52 @@
+html {
+    background-color: #e0f7fa;
+}
+
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+.avatar {
+    height: 200px;
+    width: auto;
+    border-radius: 100px;
+    float: left;
+}
+.name {
+    float: none;
+}
+
+.bio {
+    font-size: x-large;
+}
+
+.work1 {
+    border-radius: 100px;
+    padding: 25px;
+}
+
+.work2 {
+    max-height: 350px;
+    width: auto;    
+    border-radius: 100px;
+    padding: 25px;
+}
+
+.work3 {
+    border-radius: 100px;
+    padding: 25px;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+.my-links {
+    text-align: center;
+    font-size: large;
+    padding-bottom: 15px;
+}
+
+
